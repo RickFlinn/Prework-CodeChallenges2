@@ -9,6 +9,7 @@ namespace PreworkChallenges2
             ProblemOne(1);
             ProblemTwo(4);
             ProblemThree();
+            ProblemFour();
         }
 
         public static void ProblemOne(int repeats)
@@ -42,6 +43,27 @@ namespace PreworkChallenges2
             {
                 Console.WriteLine(IsPerfectSeq(testArrays[i]));
             }
+        }
+
+        public static void ProblemFour()
+        {
+            Console.WriteLine("Sorry, too lazy to print out the whole matrix, but here are the sums of its rows.");
+            int[,] testArrays1 = new int[3, 5] 
+            { 
+                { 1, 2, 3, 4, 5 },
+                { 6, 7, 8, 9, 10 },
+                { 11, 12, 13, 14, 15 }
+            };
+
+            int[] sums = SumOfRows(testArrays1);
+            string sumsString = $"[{sums[0]}";
+            for (int i = 1; i < sums.Length; i++)
+            {
+                sumsString += ", " + sums[i];
+            }
+            sumsString += "]";
+            Console.WriteLine(sumsString);
+
         }
   
         public static void ArrayMax()
@@ -123,6 +145,19 @@ namespace PreworkChallenges2
             {
                 return "No";
             }
+        }
+
+        public static int[] SumOfRows (int[,] arrays)
+        {
+            int[] sums = new int[arrays.GetLength(0)];
+            for (int i = 0; i < arrays.GetLength(0); i++)
+            {
+                for (int j = 0; j < arrays.GetLength(1); j++)
+                {
+                    sums[i] += arrays[i,j];
+                }
+            }
+            return sums;
         }
     }
 }
