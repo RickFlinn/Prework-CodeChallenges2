@@ -8,6 +8,7 @@ namespace PreworkChallenges2
         {
             ProblemOne(1);
             ProblemTwo(4);
+            ProblemThree();
         }
 
         public static void ProblemOne(int repeats)
@@ -23,6 +24,23 @@ namespace PreworkChallenges2
             for (int i = 0; i < repeats; i++)
             {
                 IsLeapYear();
+            }
+        }
+
+        public static void ProblemThree()
+        {
+            int[][] testArrays = new int[][]
+            {
+                new int[] {2, 2},
+                new int[] {1, 2, 3},
+                new int[] {1, 0, -1},
+                new int[] {0, 0, 0, 0},
+                new int[] {1, 2}
+            };
+
+            for (int i = 0; i < testArrays.Length; i++)
+            {
+                Console.WriteLine(IsPerfectSeq(testArrays[i]));
             }
         }
   
@@ -72,6 +90,39 @@ namespace PreworkChallenges2
                 Console.WriteLine($"{yr} isn't a leap year.");
             }
 
+        }
+
+        public static string IsPerfectSeq (int[] arr)
+        {
+            string arrString = "";
+            arrString += arr[0];
+            for (int i = 1; i < arr.Length; i++)
+            {
+                arrString += ", " + arr[i];
+            }
+
+            Console.WriteLine($"Is [{arrString}] a perfect sequence?");
+            int sum = arr[0];
+            int prod = arr[0];
+
+            for (int i = 1; i < arr.Length; i++)
+            {
+                if (arr[i] < 0)
+                {
+                    return "No";
+                }
+                sum += arr[i];
+                prod *= arr[i];
+            }
+
+            if (sum == prod)
+            {
+                return "Yes";
+            }
+            else
+            {
+                return "No";
+            }
         }
     }
 }
