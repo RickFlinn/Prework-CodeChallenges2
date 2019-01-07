@@ -22,12 +22,10 @@ namespace PreworkChallenges2
         {
             for (int i = 0; i < repeats; i++)
             {
-                
+                IsLeapYear();
             }
         }
   
-
-
         public static void ArrayMax()
         {
             int[] numArr = new int[5];
@@ -62,6 +60,17 @@ namespace PreworkChallenges2
 
         public static void IsLeapYear()
         {
+            Console.WriteLine("Please input a year as an integer.");
+            int yr = int.Parse(Console.ReadLine());
+            bool isLeap = (yr % 4 == 0 && (yr % 100 != 0 || yr % 400 == 0));
+
+            if (isLeap)
+            {
+                Console.WriteLine($"{yr} is a leap year!");
+            } else
+            {
+                Console.WriteLine($"{yr} isn't a leap year.");
+            }
 
         }
     }
