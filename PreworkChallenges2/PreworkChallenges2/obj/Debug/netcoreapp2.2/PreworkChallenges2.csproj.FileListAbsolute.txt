@@ -1,0 +1,11 @@
+C:\Users\agent\codefellows\401\Prework-CodeChallenges2\PreworkChallenges2\PreworkChallenges2\bin\Debug\netcoreapp2.2\PreworkChallenges2.deps.json
+C:\Users\agent\codefellows\401\Prework-CodeChallenges2\PreworkChallenges2\PreworkChallenges2\bin\Debug\netcoreapp2.2\PreworkChallenges2.runtimeconfig.json
+C:\Users\agent\codefellows\401\Prework-CodeChallenges2\PreworkChallenges2\PreworkChallenges2\bin\Debug\netcoreapp2.2\PreworkChallenges2.runtimeconfig.dev.json
+C:\Users\agent\codefellows\401\Prework-CodeChallenges2\PreworkChallenges2\PreworkChallenges2\bin\Debug\netcoreapp2.2\PreworkChallenges2.dll
+C:\Users\agent\codefellows\401\Prework-CodeChallenges2\PreworkChallenges2\PreworkChallenges2\bin\Debug\netcoreapp2.2\PreworkChallenges2.pdb
+C:\Users\agent\codefellows\401\Prework-CodeChallenges2\PreworkChallenges2\PreworkChallenges2\obj\Debug\netcoreapp2.2\PreworkChallenges2.csprojAssemblyReference.cache
+C:\Users\agent\codefellows\401\Prework-CodeChallenges2\PreworkChallenges2\PreworkChallenges2\obj\Debug\netcoreapp2.2\PreworkChallenges2.csproj.CoreCompileInputs.cache
+C:\Users\agent\codefellows\401\Prework-CodeChallenges2\PreworkChallenges2\PreworkChallenges2\obj\Debug\netcoreapp2.2\PreworkChallenges2.AssemblyInfoInputs.cache
+C:\Users\agent\codefellows\401\Prework-CodeChallenges2\PreworkChallenges2\PreworkChallenges2\obj\Debug\netcoreapp2.2\PreworkChallenges2.AssemblyInfo.cs
+C:\Users\agent\codefellows\401\Prework-CodeChallenges2\PreworkChallenges2\PreworkChallenges2\obj\Debug\netcoreapp2.2\PreworkChallenges2.dll
+C:\Users\agent\codefellows\401\Prework-CodeChallenges2\PreworkChallenges2\PreworkChallenges2\obj\Debug\netcoreapp2.2\PreworkChallenges2.pdb
